@@ -1,17 +1,14 @@
+// import is basically require but for react/front end code. require does not work in react. 
+// export 
+// import from react allows us to use JSX (JavaScript and XML) syntax
 import React from 'react';
+// ReactDOM takes us to our page and renders it  to the page
+// we only use DOM once and always in the index.js
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+// One function built into it. Render.
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
