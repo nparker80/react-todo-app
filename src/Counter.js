@@ -1,3 +1,5 @@
+// useState is a built-in hook
+// we can also make our own hooks
 import { useState } from 'react';
 export const Counter = () => {
 	const [count, setCount ] = useState(0);
